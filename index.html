@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lakshya Fellowship | Student Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-frame"><img class="logo" src="logo1.jpeg" alt="Lakshya logo"></div>
+    <div><h1>Lakshya Fellowship Programme</h1><p>Student Application Form</p></div>
+  </header>
+  <main>
+    <form id="application">
+      <div class="intro"><h2>Welcome</h2><p>Thank you for your interest in the Lakshya Fellowship Programme. Lakshya is not just another coaching programme. It is a fellowship for students with big dreams, determination, and commitment.</p><p>Please answer every question honestly. There are no right or wrong answers.</p></div>
+
+      <fieldset><legend>Section 1: Your Dream</legend><p class="hint">Tell us about the future you want to build.</p>
+        <div class="field"><label for="dream">1. What is your biggest dream in life?</label><textarea id="dream" name="biggest_dream" required></textarea></div>
+        <div class="field"><label for="future">2. Imagine yourself 15 years from today. Describe the life you hope to be living.</label><textarea id="future" name="future_life" required></textarea></div>
+      </fieldset>
+      <fieldset><legend>Section 2: Purpose</legend>
+        <div class="field"><label for="purpose">3. Why should India need more people like you in this profession?</label><textarea id="purpose" name="purpose" required></textarea></div>
+      </fieldset>
+      <fieldset><legend>Section 3: Grit &amp; Determination</legend>
+        <div class="field"><label for="obstacle">4. What is the biggest obstacle standing between you and your dream today?</label><textarea id="obstacle" name="obstacle" required></textarea></div>
+        <div class="field"><span class="question">5. Which statement describes you best?</span><div class="choice-list">
+          <label><input type="radio" name="consistency" value="always_finish" required> I always finish what I start.</label><label><input type="radio" name="consistency" value="regain_focus"> I sometimes lose focus but quickly get back on track.</label><label><input type="radio" name="consistency" value="improve_consistency"> I struggle to stay consistent but want to improve.</label>
+        </div></div>
+        <div class="field"><label for="sacrifice">6. What are you willing to sacrifice to achieve your dream?</label><textarea id="sacrifice" name="sacrifice" required></textarea></div>
+        <div class="field"><label for="learning">7. Tell us one important thing you have learned outside school in the past year.</label><textarea id="learning" name="outside_school_learning" required></textarea></div>
+      </fieldset>
+      <fieldset><legend>Section 4: Why Lakshya?</legend>
+        <div class="field"><label for="why">8. Why do you want to become a Lakshya Fellow instead of preparing on your own?</label><textarea id="why" name="why_lakshya" required></textarea></div>
+        <div class="field"><span class="question">9. What do you expect from Lakshya?</span><div class="choice-list">
+          <label><input type="checkbox" name="expectations" value="expert_teachers"> Expert teachers</label><label><input type="checkbox" name="expectations" value="personal_mentorship"> Personal mentorship</label><label><input type="checkbox" name="expectations" value="tests_analysis"> Regular tests and performance analysis</label><label><input type="checkbox" name="expectations" value="discipline"> Study discipline and accountability</label><label><input type="checkbox" name="expectations" value="doubt_support"> Doubt-solving support</label><label><input type="checkbox" name="expectations" value="motivation"> Motivation and confidence</label><label><input type="checkbox" name="expectations" value="career_guidance"> Career guidance</label><label><input type="checkbox" name="expectations" value="community"> A supportive learning community</label><label><input type="checkbox" name="expectations" value="scholarship"> Scholarship opportunity</label>
+        </div><input class="other" type="text" name="expectations_other" placeholder="Other (please specify)"></div>
+        <div class="field"><span class="question">10. What should Lakshya expect from you?</span><div class="choice-list">
+          <label><input type="checkbox" name="commitments" value="attendance"> I will attend classes regularly.</label><label><input type="checkbox" name="commitments" value="assignments"> I will complete every assignment sincerely.</label><label><input type="checkbox" name="commitments" value="tests"> I will appear for every scheduled test.</label><label><input type="checkbox" name="commitments" value="hard_work"> I will work hard even when the syllabus becomes difficult.</label><label><input type="checkbox" name="commitments" value="respect"> I will respect teachers and fellow students.</label><label><input type="checkbox" name="commitments" value="feedback"> I will accept feedback and continuously improve.</label><label><input type="checkbox" name="commitments" value="integrity"> I will maintain discipline and integrity.</label><label><input type="checkbox" name="commitments" value="never_give_up"> I will never give up on my dream.</label>
+        </div><input class="other" type="text" name="commitments_other" placeholder="Other (please specify)"></div>
+      </fieldset>
+      <fieldset><legend>Section 5: Student Information</legend><div class="grid">
+        <div class="field"><label for="fullName">Full Name</label><input id="fullName" name="full_name" type="text" required></div><div class="field"><label for="mobile">Mobile Number</label><input id="mobile" name="mobile" type="tel" required></div><div class="field"><label for="whatsapp">WhatsApp Number</label><input id="whatsapp" name="whatsapp" type="tel" required></div><div class="field"><label for="email">Email ID</label><input id="email" name="email" type="email" required></div><div class="field"><label for="gender">Gender</label><select id="gender" name="gender" required><option value="" selected disabled>Select</option><option>Female</option><option>Male</option><option>Non-binary</option><option>Prefer not to say</option></select></div><div class="field"><label for="dob">Date of Birth</label><input id="dob" name="date_of_birth" type="date" required></div><div class="field"><label for="state">State</label><input id="state" name="state" type="text" required></div><div class="field"><label for="district">District</label><input id="district" name="district" type="text" required></div><div class="field"><label for="school">School Name</label><input id="school" name="school_name" type="text" required></div><div class="field"><label for="class">Current Class</label><input id="class" name="current_class" type="text" required></div><div class="field"><label for="board">Board</label><input id="board" name="board" type="text" required></div>
+      </div></fieldset>
+      <fieldset><legend>Section 6: Academic Information</legend><div class="grid">
+        <div class="field"><span class="question">Which programme are you interested in?</span><div class="choice-list"><label><input type="radio" name="programme" value="NEET" required> NEET</label><label><input type="radio" name="programme" value="JEE"> JEE</label><label><input type="radio" name="programme" value="Still Exploring"> Still Exploring</label></div></div>
+        <div class="field"><label for="classx">Class X Percentage (or latest annual examination percentage)</label><input id="classx" name="class_x_percentage" type="number" min="0" max="100" step="0.01" required></div><div class="field"><label for="currentPct">Current Overall Percentage</label><input id="currentPct" name="current_percentage" type="number" min="0" max="100" step="0.01" required></div><div class="field"><label for="maths">Mathematics Marks</label><input id="maths" name="mathematics_marks" type="text" required></div><div class="field"><label for="science">Science Marks</label><input id="science" name="science_marks" type="text" required></div><div class="field"><label for="favourite">Favourite Subject</label><input id="favourite" name="favourite_subject" type="text" required></div><div class="field"><label for="challenge">Subject you find most challenging</label><input id="challenge" name="challenging_subject" type="text" required></div>
+        <div class="field"><span class="question">Have you started preparing for NEET/JEE?</span><div class="choice-list"><label><input type="radio" name="started_preparation" value="yes" required> Yes</label><label><input type="radio" name="started_preparation" value="no"> No</label></div></div><div class="field"><span class="question">Are you currently enrolled in any coaching or online programme?</span><div class="choice-list"><label><input type="radio" name="coaching" value="yes" required> Yes</label><label><input type="radio" name="coaching" value="no"> No</label></div></div>
+      </div><div class="field"><label for="coachingName">If yes, please mention the name.</label><input id="coachingName" name="coaching_name" type="text"></div></fieldset>
+      <fieldset><legend>Section 7: Parent / Guardian Details</legend><div class="grid"><div class="field"><label for="parent">Parent/Guardian Name</label><input id="parent" name="guardian_name" type="text" required></div><div class="field"><label for="relationship">Relationship</label><input id="relationship" name="relationship" type="text" required></div><div class="field"><label for="parentMobile">Mobile Number</label><input id="parentMobile" name="guardian_mobile" type="tel" required></div><div class="field"><label for="parentWhatsapp">WhatsApp Number</label><input id="parentWhatsapp" name="guardian_whatsapp" type="tel" required></div></div></fieldset>
+      <fieldset><legend>Final Questions</legend><div class="field"><label for="convince">If the Lakshya Selection Committee had only one minute to decide whether to select you, what would you say to convince them?</label><textarea id="convince" name="selection_statement" required></textarea></div><div class="field"><label for="proof">What have you already done to prove that your dream is more than just a wish? Please give specific examples.</label><textarea id="proof" name="proof_of_dream" required></textarea></div></fieldset>
+      <fieldset class="declaration"><legend>Declaration</legend><div class="choice-list"><label><input type="checkbox" name="truth" required> I certify that the information provided is true and accurate.</label><label><input type="checkbox" name="admission" required> I understand that submitting this application does not guarantee admission.</label></div></fieldset>
+      <button type="submit">Submit Application</button><div id="success" role="status">Your application is complete and ready to submit. Connect this form to a server or form service to receive submissions.</div>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
